@@ -49,6 +49,12 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Observer.PublicationBusiness\Observer.PublicationBusiness.csproj">
+      <Project>{8cf8b4cb-b2ab-4850-8bad-fa8a0de7080b}</Project>
+      <Name>Observer.PublicationBusiness</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
