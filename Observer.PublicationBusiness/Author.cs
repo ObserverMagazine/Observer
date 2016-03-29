@@ -8,6 +8,7 @@ namespace Observer.PublicationBusiness
 {
     public class Author
     {
+        private static readonly string _fallbackEmail = "spam.kushal@gmail.com";
         private string _email;
         public Guid Id { get; set; }
         public string FullName { get; set; }
@@ -24,7 +25,7 @@ namespace Observer.PublicationBusiness
                 }
                 else
                 {
-                    _email = "";
+                    _email = _fallbackEmail;
                 }
             }
         }
