@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ObserverConsole", "ObserverConsole\ObserverConsole.csproj", "{78408945-D601-4CF0-8980-3A965EC50953}"
+	ProjectSection(ProjectDependencies) = postProject
+		{61C14C09-F87B-420A-93BA-40EF9D4D73CE} = {61C14C09-F87B-420A-93BA-40EF9D4D73CE}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer.Business", "Observer.Business\Observer.Business.csproj", "{61C14C09-F87B-420A-93BA-40EF9D4D73CE}"
 EndProject
