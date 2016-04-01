@@ -37,6 +37,5 @@ namespace Observer.PublicationBusiness
             this.TwitterHandle = twitterHandle;
             this.Email = email;
         }
-
     }
 }
