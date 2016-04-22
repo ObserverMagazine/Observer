@@ -7,6 +7,23 @@
         mc:Ignorable="d"
         Title="Observer Messaging : Welcome" Height="768" Width="1366">
     <Grid>
-        
+        <StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="100">
+                    Username 
+                </TextBlock>
+                <TextBox Width="200">
+                    
+                </TextBox>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <TextBlock Width="100">
+                    Password
+                </TextBlock>
+                <TextBox Width="200">
+
+                </TextBox>
+            </StackPanel>
+        </StackPanel>
     </Grid>
 </Window>
