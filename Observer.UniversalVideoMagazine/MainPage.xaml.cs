@@ -25,6 +25,9 @@ namespace Observer.UniversalVideoMagazine
         public MainPage()
         {
             this.InitializeComponent();
+            var source = Windows.Media.Core.MediaSource.CreateFromUri(new Uri("ms-appx:///Assets/VID_20160420_224200.mp4"));
+            var playbackItem = new Windows.Media.Playback.MediaPlaybackItem(source);
+            this.mediaElement.SetPlaybackSource(playbackItem);
         }
     }
 }

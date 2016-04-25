@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
-    <ProjectGuid>{019DB07A-EEEF-4ADB-9D85-092823164D92}</ProjectGuid>
+    <ProjectGuid>{822AEECB-4C1A-4933-99E7-A81659217CD8}</ProjectGuid>
     <OutputType>AppContainerExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Observer.UniversalVideoMagazine</RootNamespace>
@@ -110,7 +110,7 @@
     <None Include="Observer.UniversalVideoMagazine_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Assets\vid2s.mp4" />
+    <Content Include="Assets\VID_20160420_224200.mp4" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />

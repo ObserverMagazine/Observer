@@ -7,11 +7,11 @@
   IgnorableNamespaces="uap mp">
 
   <Identity
-    Name="204cef99-fee0-4bbd-8e04-84e9b9288d87"
+    Name="e48b0b5c-1d3b-4035-8ab4-01d13cf50249"
     Publisher="CN=rustp"
     Version="1.0.0.0" />
 
-  <mp:PhoneIdentity PhoneProductId="204cef99-fee0-4bbd-8e04-84e9b9288d87" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
+  <mp:PhoneIdentity PhoneProductId="e48b0b5c-1d3b-4035-8ab4-01d13cf50249" PhonePublisherId="00000000-0000-0000-0000-000000000000"/>
 
   <Properties>
     <DisplayName>Observer.UniversalVideoMagazine</DisplayName>

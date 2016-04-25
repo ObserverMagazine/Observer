@@ -8,6 +8,6 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+        <MediaElement x:Name="mediaElement" AutoPlay="False" Margin="5" HorizontalAlignment="Stretch" AreTransportControlsEnabled="True"></MediaElement>
     </Grid>
 </Page>
